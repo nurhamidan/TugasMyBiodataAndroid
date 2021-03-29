@@ -5,11 +5,13 @@
     android:layout_height="match_parent"
     android:padding="25dp"
     android:orientation="vertical"
+    android:background="@color/silver"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/dark_turquoise">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -26,7 +28,9 @@
                 android:text="@string/nama_lengkap"
                 android:layout_below="@id/foto"
                 android:layout_centerHorizontal="true"
-                android:textSize="@dimen/ukuranTextNama"/>
+                android:textSize="@dimen/ukuranTextNama"
+                android:textColor="@color/azure"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,7 +43,8 @@
     </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/turquoise">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
@@ -51,22 +56,26 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:layout_marginBottom="@dimen/jarakAntarData">
+                    android:layout_marginBottom="@dimen/jarakAntarData"
+                    >
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Kelas"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/kelas"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -77,17 +86,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Jenis Kelamin"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/jenis_kelamin"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -98,17 +110,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Tempat Tanggal Lahir"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/tempat_tanggal_lahir"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -119,17 +134,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Alamat Rumah"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/alamat_rumah"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -140,17 +158,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Golongan Darah"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/golongan_darah"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -161,17 +182,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Makanan Kesukaan"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/makanan_kesukaan"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -182,17 +206,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Minuman Kesukaan"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/minuman_kesukaan"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -203,17 +230,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Hobi"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/hobi"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -224,17 +254,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Lagu Favorit"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/lagu_favorit"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -245,17 +278,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Film Favorit"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/film_favorit"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -266,17 +302,20 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Pekerjaan Yang Diinginkan Setelah Kuliah"
-                        android:layout_weight="2"/>
+                        android:layout_weight="2"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text=":"
-                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"/>
+                        android:layout_marginHorizontal="@dimen/ukuranMarginPemisah"
+                        android:textSize="@dimen/ukuranTextData"/>
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/cita_cita_pekerjaan"
-                        android:layout_weight="1"/>
+                        android:layout_weight="1"
+                        android:textSize="@dimen/ukuranTextData"/>
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>

@@ -2,7 +2,8 @@
 <resources>
     <dimen name="ukuranFoto">200dp</dimen>
     <dimen name="ukuranTextNama">30sp</dimen>
-    <dimen name="ukuranTextNim">15sp</dimen>
+    <dimen name="ukuranTextNim">19sp</dimen>
     <dimen name="jarakAntarData">20dp</dimen>
     <dimen name="ukuranMarginPemisah">5dp</dimen>
+    <dimen name="ukuranTextData">20sp</dimen>
 </resources>
