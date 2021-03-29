@@ -7,10 +7,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1.5">
+        android:layout_height="wrap_content">
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -18,7 +17,7 @@
                 android:id="@+id/foto"
                 android:layout_width="@dimen/ukuranFoto"
                 android:layout_height="@dimen/ukuranFoto"
-                android:src="@drawable/myPic"
+                android:src="@drawable/my_picture"
                 android:layout_centerHorizontal="true"/>
             <TextView
                 android:id="@+id/textNama"
@@ -37,11 +36,10 @@
                 android:textSize="@dimen/ukuranTextNim"/>
 
         </RelativeLayout>
-    </LinearLayout>
+    </RelativeLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1">
+        android:layout_height="match_parent">
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent">
