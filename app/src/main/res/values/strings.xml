@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Biodata Application</string>
+    <string name="nama_lengkap">Agung Nurhamidan</string>
+    <string name="nim">10118017</string>
+    <string name="kelas">IF-1</string>
+    <string name="jenis_kelamin">Laki-Laki</string>
+    <string name="tempat_tanggal_lahir">Ciamis, 08 November 1998</string>
+    <string name="alamat_rumah">Jl. Tubagus Ismail Raya No. 76</string>
+    <string name="golongan_darah">O</string>
+    <string name="makanan_kesukaan">Seblak</string>
+    <string name="minuman_kesukaan">Jus Buah Naga</string>
+    <string name="hobi">Berenang</string>
+    <string name="lagu_favorit">Bondan Prakoso &amp; Fade 2 Black - Ya Sudahlah</string>
+    <string name="film_favorit">Violet Evergarden</string>
+    <string name="cita_cita_pekerjaan">Programmer</string>
+</resources>
